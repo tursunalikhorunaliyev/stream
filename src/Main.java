@@ -13,9 +13,8 @@ public class Main {
         File audioFile = new File("music/Jonasu_-_Rhythm_Inside__ft._Rory_Hope_(256k).wav");
         FileInputStream fileInputStream = new FileInputStream(audioFile);
 
-        byte[] buffer = new byte[512];
+        byte[] buffer = new byte[1024];
         System.out.println("Radio is on the air");
-
 
         double bytesPerNano = 176400.0 / 1_000_000_000.0;
 
